@@ -1,32 +1,3 @@
-
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @partyonaplatform
-
-59
-1,104
-
-    340
-
-jw84/messenger-bot-tutorial
-Code
-Issues 13
-Pull requests 8
-Projects 0
-Wiki
-Pulse
-Graphs
-messenger-bot-tutorial/index.js
-c22ca55 on 29 May
-@thelostspore thelostspore Config var section in README
-@jw84
-@thelostspore
-130 lines (116 sloc) 3.22 KB
 'use strict'
 
 const express = require('express')
@@ -156,8 +127,3 @@ function sendGenericMessage(sender) {
 app.listen(app.get('port'), function() {
 	console.log('running on port', app.get('port'))
 })
-
-    Contact GitHub API Training Shop Blog About 
-
-    © 2016 GitHub, Inc. Terms Privacy Security Status Help 
-
